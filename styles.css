@@ -1,3 +1,4 @@
+/* Vi sätter ett absolut värde för storlek på rektangeln så den inte ändras när vi ändrar storlek på fönstret */
 .square{
     height:200px;
     width: 400px;
@@ -6,6 +7,9 @@
     margin-bottom: 50px;
 }
 
+/* Absoluta värden för storlek här också
+   Vi sätter den som border box vilket gör att våran border inte kommer utanför ramen för våran rektangel
+   Vi sätter margin left och right på auto, vilket gör att cirkeln alltid kommer vara i mitten av parent-objektet*/
 .circle{
     box-sizing: border-box;
     height: 200px;
@@ -17,6 +21,8 @@
     margin-right: auto;
 }
 
+/* Vi använder oss av vh och vw för att se till att vi får hela viewporten fylld
+   Vi gör om diven till en grid med 2 kolumner och 2 rader för att få våra färgade rutor att bli responsiva */
 .clrsqr{
     height: 100vh;
     width: 100vw;
