@@ -1,0 +1,43 @@
+.square{
+    height:200px;
+    width: 400px;
+    border: 5px solid blue;
+    background-color: rgb(88, 180, 211);
+    margin-bottom: 50px;
+}
+
+.circle{
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 5px solid orange;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clrsqr{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.redsqr{
+    background-color: red;
+}
+
+.bluesqr{
+    background-color: blue;
+}
+
+.greensqr{
+    background-color: green;
+}
+
+.yellowsqr{
+    background-color: yellow;
+}
